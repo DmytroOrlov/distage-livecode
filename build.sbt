@@ -1,9 +1,9 @@
 val V = new {
-  val distage         = "0.9.5-M19"
+  val distage         = "0.9.5"
   val scalatest       = "3.0.8"
-  val scalacheck      = "1.14.0"
+  val scalacheck      = "1.14.2"
   val http4s          = "0.21.0-M4"
-  val doobie          = "0.8.0-RC1"
+  val doobie          = "0.8.2"
   val zio             = "1.0.0-RC12-1"
   val zioCats         = "2.0.0.0-RC3"
   val kindProjector   = "0.10.3"
@@ -39,7 +39,7 @@ val Deps = new {
 
 inThisBuild(
   Seq(
-    scalaVersion := "2.13.0",
+    scalaVersion := "2.13.1",
     version := "1.0.0-SNAPSHOT",
     organization := "io.7mind",
   )
